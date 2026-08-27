@@ -429,21 +429,7 @@ body {
   color: #475569;
   font-size: 15px;
 }
-/* =========================
-   HEADER TITLE FIX
-========================= */
 
-.header h1 {
-  color: #ffffff !important;
-}
-
-.header p {
-  color: #dbeafe !important;
-}
-
-.model-result-info strong {
-  color: #111827;
-}
 
 
 /* =========================================================
@@ -957,44 +943,7 @@ footer span {
     transform: rotate(360deg);
   }
 }
-/* =========================
-   TOP 3 PREDICTIONS
-========================= */
 
-.top-predictions-box {
-  margin-top: 20px;
-  padding: 18px;
-  border-radius: 12px;
-  background: #f8fafc;
-  border: 1px solid #e2e8f0;
-}
-
-.top-predictions-box h3 {
-  margin: 0 0 14px;
-  font-size: 18px;
-}
-
-.top-prediction {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 12px;
-  margin-bottom: 8px;
-  border-radius: 8px;
-  background: white;
-}
-
-.top-prediction:last-child {
-  margin-bottom: 0;
-}
-
-.top-prediction span {
-  font-weight: 500;
-}
-
-.top-prediction strong {
-  font-weight: 700;
-}
 /* =========================
    PERFORMANCE METRICS
 ========================= */
@@ -1037,13 +986,11 @@ footer span {
   color: #2563eb;
 }
 
-/* Mobile */
-@media (max-width: 700px) {
-  .metrics-grid {
-    grid-template-columns: 1fr;
-  }
-}
-/* Prediction History Column Labels */
+
+/* =========================
+   PREDICTION HISTORY COLUMN LABELS
+========================= */
+
 .history-labels {
   display: grid;
   grid-template-columns: 1fr 1fr 1.5fr 1fr 1fr;
@@ -1059,6 +1006,12 @@ footer span {
 .history-labels span:first-child {
   text-align: left;
 }
+
+
+/* =========================
+   LIVE PREDICTION
+========================= */
+
 .live-prediction {
   margin: 20px auto;
   padding: 18px;
@@ -1091,6 +1044,12 @@ footer span {
 .live-prediction p {
   margin: 10px 0 0;
 }
+
+
+/* =========================
+   CAMERA STATUS
+========================= */
+
 .camera-status {
   display: flex;
   align-items: center;
@@ -1123,11 +1082,14 @@ footer span {
 .camera-status.inactive {
   color: #6b7280;
 }
+
 .session-count {
   font-size: 13px;
   color: #64748b;
   margin-top: 12px;
 }
+
+
 /* =========================
    RESPONSIVE DESIGN
 ========================= */
@@ -1222,9 +1184,10 @@ footer span {
     line-height: 1.5;
   }
 }
+
+
 /* =========================
-   FINAL UI POLISH
-   PREDICTION RESULT
+   FINAL UI POLISH - PREDICTION RESULT
 ========================= */
 
 .result-card {
@@ -1260,6 +1223,8 @@ footer span {
   border-radius: 10px;
   transition: width 0.5s ease;
 }
+
+
 /* =========================
    PREDICTION HISTORY POLISH
 ========================= */
@@ -1279,12 +1244,6 @@ footer span {
 
 .history-header h2 {
   margin: 0;
-}
-
-.history-list {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
 }
 
 .history-item {
@@ -1311,19 +1270,7 @@ footer span {
   transform: translateY(-1px);
 }
 
-@media (max-width: 768px) {
 
-  .history-header {
-    flex-direction: column;
-    align-items: stretch;
-  }
-
-  .history-item {
-    grid-template-columns: 1fr;
-    gap: 6px;
-  }
-
-}
 /* =========================
    LIVE CAMERA POLISH
 ========================= */
