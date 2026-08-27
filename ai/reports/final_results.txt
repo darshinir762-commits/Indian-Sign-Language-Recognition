@@ -1,0 +1,51 @@
+INDIAN SIGN LANGUAGE RECOGNITION
+FINAL MODEL EVALUATION
+========================================
+
+SELECTED MODEL
+EfficientNetB0
+
+TEST PERFORMANCE
+----------------
+Test Accuracy : 99.91%
+Test Loss     : 0.0022
+Test Samples  : 1068
+
+CLASS-WISE PERFORMANCE
+----------------------
+Class A:
+Precision : 1.00
+Recall    : 1.00
+F1-score  : 1.00
+
+Class B:
+Precision : 1.00
+Recall    : 1.00
+F1-score  : 1.00
+
+Class C:
+Precision : 1.00
+Recall    : 1.00
+F1-score  : 1.00
+
+Class D:
+Precision : 0.99
+Recall    : 1.00
+F1-score  : 1.00
+
+MODEL COMPARISON
+----------------
+CNN             : 99.52%
+MobileNetV2     : 99.72%
+EfficientNetB0  : 99.91%
+
+CONCLUSION
+----------
+EfficientNetB0 achieved the highest test accuracy
+among the three evaluated deep learning models.
+Therefore, EfficientNetB0 was selected as the final
+model for Indian Sign Language recognition.
+
+The trained model was integrated into the prediction
+pipeline and tested for image-based and real-time
+webcam recognition.

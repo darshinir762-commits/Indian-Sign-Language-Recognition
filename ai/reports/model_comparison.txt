@@ -1,0 +1,20 @@
+INDIAN SIGN LANGUAGE RECOGNITION
+MODEL COMPARISON RESULTS
+========================================
+
+Model              Test Accuracy    Test Loss
+------------------------------------------------
+CNN                    99.52%          0.0478
+MobileNetV2            99.72%          0.0070
+EfficientNetB0         99.91%          0.0022
+
+========================================
+BEST MODEL: EfficientNetB0
+
+EfficientNetB0 achieved the highest test
+accuracy of 99.91% and the lowest test
+loss among the three evaluated models.
+
+Therefore, EfficientNetB0 was selected as
+the final model for real-time sign
+language recognition.

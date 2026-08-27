@@ -1,0 +1,22 @@
+INDIAN SIGN LANGUAGE RECOGNITION
+MODEL PERFORMANCE SUMMARY
+========================================
+
+CNN
+Test Accuracy: 99.52%
+
+MobileNetV2
+Test Accuracy: 99.72%
+
+EfficientNetB0
+Test Accuracy: 99.91%
+
+========================================
+BEST MODEL: EfficientNetB0
+========================================
+
+EfficientNetB0 achieved the highest test
+accuracy among the evaluated models.
+
+It is selected as the primary model for
+Indian Sign Language recognition.

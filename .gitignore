@@ -1,0 +1,69 @@
+# =========================
+# Node / Frontend
+# =========================
+
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# =========================
+# Python / Backend
+# =========================
+
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Environment / Secrets
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# =========================
+# IDE / OS
+# =========================
+
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# =========================
+# Python tooling
+# =========================
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+# ==========================================
+# Dataset
+# ==========================================
+
+dataset/
+# Large trained model
+backend/saved_models/cnn_model.keras
+dataset/
+backend/saved_models/cnn_model.keras
+uploads/
+backend/uploads/
