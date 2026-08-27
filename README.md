@@ -15,7 +15,6 @@ The system includes model training, data preprocessing, model evaluation, a Fast
 - Multiple deep learning models
 - EfficientNet-based prediction
 - MobileNet-based prediction
-- Top-3 prediction results
 - Prediction confidence score
 - Inference-time measurement
 - FastAPI backend
@@ -61,5 +60,4 @@ Prediction Result
   │
   ├── Predicted Letter
   ├── Confidence
-  ├── Top-3 Predictions
   └── Inference Time
